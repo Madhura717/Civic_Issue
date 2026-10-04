@@ -1,0 +1,26 @@
+{
+  "id": "web-db-user",
+  "name": "Web App (db,user)",
+  "description": "Full-stack web template with database + user flows",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "files": [
+    "package.json",
+    "drizzle/schema.ts",
+    "server/db.ts",
+    "server/routers.ts",
+    "client/index.html",
+    "client/src/App.tsx",
+    "client/src/lib/trpc.ts",
+    "client/src/pages/Home.tsx",
+    "server/auth.logout.test.ts"
+  ],
+  "source": {
+    "repository": "manus-ai/manus-sandbox",
+    "commit": "96caae59caace79529e4b3c3a32234cddd3e8411",
+    "path": "sandbox/templates/web-dev-templates/templates/web-db-user"
+  }
+}
